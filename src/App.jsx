@@ -4,6 +4,7 @@ import Header from './components/Header'
 import AboutMe from './components/Aboutme'
 import SocialNetwork from './components/SocialNetwork'
 import Skills from './components/Skills'
+import Tools from './components/Tools'
 
 import profileImg from './assets/profile-picture.jpeg'
 import './App.css'
@@ -27,6 +28,7 @@ function App() {
      <AboutMe profileImg={profileImg} aboutMeText={aboutMeText}/>
      <SocialNetwork/>
      <Skills />
+     <Tools />
     </>
   )
 }

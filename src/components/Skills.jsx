@@ -16,10 +16,10 @@ function Skills() {
     <div className='skills-section'>
       <h2>Skills</h2>
       <div className='skills-grid'>
-        {skills.map((skills,index) => (
+        {skills.map((skill,index) => (
           <div key={index} className='skills-card'>
-            <img src={skills.logo} alt={skills.name} className='skills-logo'/>  
-            <p>{skills.name}</p>    
+            <img src={skill.logo} alt={skill.name} className='skills-logo'/>  
+            <p>{skill.name}</p>    
           </div>
         ))}
       </div>
