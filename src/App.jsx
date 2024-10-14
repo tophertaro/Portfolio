@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import AboutMe from './components/Aboutme'
 import SocialNetwork from './components/SocialNetwork'
+import Skills from './components/Skills'
 
 import profileImg from './assets/profile-picture.jpeg'
 import './App.css'
@@ -25,6 +26,7 @@ function App() {
      <Header links={navLinks}/>
      <AboutMe profileImg={profileImg} aboutMeText={aboutMeText}/>
      <SocialNetwork/>
+     <Skills />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import linkedinLogo from '../assets/linkedin-logo.jpg'
 import githubLogo from '../assets/github-logo.jpg'
 
+
 function SocialNetwork() {
 
   const socialNetworks = [
