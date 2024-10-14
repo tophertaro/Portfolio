@@ -5,7 +5,7 @@ import AboutMe from './components/Aboutme'
 import SocialNetwork from './components/SocialNetwork'
 
 import profileImg from './assets/profile-picture.jpeg'
-
+import './App.css'
 
 
 
