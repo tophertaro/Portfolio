@@ -5,6 +5,7 @@ import AboutMe from './components/Aboutme'
 import SocialNetwork from './components/SocialNetwork'
 import Skills from './components/Skills'
 import Tools from './components/Tools'
+import Projects from './components/Projects'
 
 import profileImg from './assets/profile-picture.jpeg'
 import './App.css'
@@ -29,6 +30,7 @@ function App() {
      <SocialNetwork/>
      <Skills />
      <Tools />
+     <Projects />
     </>
   )
 }
