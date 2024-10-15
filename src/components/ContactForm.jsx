@@ -62,7 +62,7 @@ function ContactForm() {
           <label htmlFor="email">Email :</label>
           <input
             type="email"
-            name="email"
+            name="reply_to"
             value={formData.email}
             onChange={handleChange}
             placeholder="Votre email"
