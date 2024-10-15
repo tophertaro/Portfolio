@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 
 import profileImg from './assets/profile-picture.jpeg'
 import './App.css'
+import './App-mobile.css'
 
 
 

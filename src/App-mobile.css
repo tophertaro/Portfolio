@@ -1,0 +1,57 @@
+/* MOBILE */
+
+@media (max-width: 660px) {
+
+  h2 {
+    font-size: 1.5rem
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .navlink ul {
+    font-size: 1rem;
+  }
+
+  .aboutme-card {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .profile img {
+    width: 30%;
+  }
+
+  .profile-title {
+    font-size: 1.2rem;
+  }
+
+  .aboutme-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+
+  .aboutme-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    justify-items: center;
+  }
+
+  .contact-form-container {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

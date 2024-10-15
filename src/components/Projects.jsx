@@ -12,7 +12,7 @@ function Projects() {
     {
       id: 1,
       title: "Portfolio Architecte",
-      description: "Ajout de fonctionnalités JavaScript sur un site de portfolio d'architecte.",
+      description: "Ajout de fonctionnalités JavaScript sur un site de portfolio d'architecte, permettant la connexion, l'ajout et suppression de projet.",
       imageUrl: sophieBluel,
       link: "https://projet-3-oc.vercel.app/"
     },

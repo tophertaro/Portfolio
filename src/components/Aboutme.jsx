@@ -1,7 +1,7 @@
 
 function AboutMe({profileImg}) {
 
-  const aboutMeText = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+  const aboutMeText = 'Je suis actuellement en reconversion professionnelle et à la recherche d\'une alternance en développement web. Passionné par l\'apprentissage de nouvelles compétences, je suis constamment à la recherche de nouveaux défis pour améliorer mes connaissances techniques. Ce que j\'aime le plus, c\'est créer des solutions qui apportent une réelle valeur ajoutée et répondre aux besoins concrets. Mon objectif est de contribuer à des projets innovants tout en développant des compétences solides dans le domaine du développement web.'
 
   return(
     <div className="aboutme-card">

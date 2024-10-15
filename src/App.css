@@ -13,7 +13,7 @@ h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 /* HEADER */
 
@@ -251,7 +251,7 @@ p {
   padding: 30px;
   width: 100%;
   max-width: 600px;
-  margin: 10rem auto;
+  margin: 10rem auto ;
   text-align: center;
 }
 
@@ -327,3 +327,5 @@ p {
   left: 0;
   right: 0;
 }
+
+
