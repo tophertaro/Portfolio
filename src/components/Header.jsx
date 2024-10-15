@@ -1,6 +1,12 @@
 
 
-function Header({links}) {
+function Header() {
+
+  const navLinks = [
+    {label: 'Projects'},
+    {label: 'Contact'}
+  ]
+  
   return(
     <header>
       <div className="header">
@@ -11,8 +17,10 @@ function Header({links}) {
         <div>
           <nav className="navlink">
           <ul>
-            {links.map((link, index) => (
-              <li key={index}>{link.label}</li>
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                <a href={`#${link.label.toLowerCase()}`}>{link.label}</a>
+              </li>
             ))}
           </ul>
           </nav>
