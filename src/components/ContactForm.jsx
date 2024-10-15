@@ -51,8 +51,8 @@ function ContactForm() {
           <label htmlFor="name">Nom :</label>
           <input
             type="text"
-            name="name"
-            value={formData.name}
+            name="from_name"
+            value={formData.from_name}
             onChange={handleChange}
             placeholder="Votre nom"
             required
@@ -63,7 +63,7 @@ function ContactForm() {
           <input
             type="email"
             name="reply_to"
-            value={formData.email}
+            value={formData.reply_to}
             onChange={handleChange}
             placeholder="Votre email"
             required
