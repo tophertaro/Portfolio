@@ -11,22 +11,22 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Portfolio Architecte",
-      description: "Ajout de fonctionnalités JavaScript sur un site de portfolio d'architecte, permettant la connexion, l'ajout et suppression de projet.",
+      title: "Architect Portfolio",
+      description: "Added JavaScript features to an architect portfolio site, enabling login, and project addition and deletion.",
       imageUrl: sophieBluel,
       link: "https://projet-3-oc.vercel.app/"
     },
     {
       id: 2,
-      title: "Site de location immobilière",
-      description: "Création d’un site de location immobilière avec React.",
+      title: "Real Estate Rental Site KASA",
+      description: "Created a real estate rental website using React.",
       imageUrl: siteKasa,
       link: "https://projet-5-oc.vercel.app/"
     }, 
     {
       id: 3,
-      title: "Intégrer une maquette Figma",
-      description: "Ce projet consiste à intégrer une maquette Figma en HTML et CSS.",
+      title: "Integrating a Figma Mockup",
+      description: "This project consists of integrating a Figma mockup using HTML and CSS.",
       imageUrl: booki,
       link: "https://tophertaro.github.io/projet-2-oc-/"
     },

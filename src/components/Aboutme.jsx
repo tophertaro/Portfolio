@@ -1,7 +1,7 @@
 
 function AboutMe({profileImg}) {
 
-  const aboutMeText = 'Je suis actuellement en reconversion professionnelle et à la recherche d\'une alternance en développement web. Passionné par l\'apprentissage de nouvelles compétences, je suis constamment à la recherche de nouveaux défis pour améliorer mes connaissances techniques. Ce que j\'aime le plus, c\'est créer des solutions qui apportent une réelle valeur ajoutée et répondre aux besoins concrets. Mon objectif est de contribuer à des projets innovants tout en développant des compétences solides dans le domaine du développement web.'
+  const aboutMeText = 'I am currently undergoing a career change and seeking an apprenticeship in web development. Passionate about learning new skills, I am constantly looking for new challenges to improve my technical knowledge. What I enjoy the most is creating solutions that bring real added value and meet concrete needs. My goal is to contribute to innovative projects while developing solid skills in the field of web development.'
 
   return(
     <div className="aboutme-card">

@@ -29,10 +29,10 @@ function ContactForm() {
     emailjs.sendForm('service_qq8vd9k', 'template_adpde1d', form.current,'HlGq6B3FC2GdyM1Od',)
       .then((result) => {
         console.log(result.text);
-        setMessageStatus("Message envoyé avec succès !");
+        setMessageStatus("Message sent successfully !");
       }, (error) => {
         console.log(error.text);
-        setMessageStatus("Erreur lors de l'envoi du message.");
+        setMessageStatus("Error while sending the message.");
       });
 
     // Réinitialiser le formulaire après envoi
@@ -45,16 +45,16 @@ function ContactForm() {
 
   return (
     <div className="contact-form-container">
-      <h2>Contactez-moi</h2>
+      <h2>Contact me</h2>
       <form ref={form}onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
-          <label htmlFor="name">Nom :</label>
+          <label htmlFor="name">Name :</label>
           <input
             type="text"
             name="from_name"
             value={formData.from_name}
             onChange={handleChange}
-            placeholder="Votre nom"
+            placeholder="Your name"
             required
           />
         </div>
@@ -65,7 +65,7 @@ function ContactForm() {
             name="reply_to"
             value={formData.reply_to}
             onChange={handleChange}
-            placeholder="Votre email"
+            placeholder="Your email"
             required
           />
         </div>
@@ -75,12 +75,12 @@ function ContactForm() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            placeholder="Votre message"
+            placeholder="Your message"
             rows="5"
             required
           />
         </div>
-        <button type="submit" className="submit-button">Envoyer</button>
+        <button type="submit" className="submit-button">Send</button>
       </form>
 
       {/* Afficher le message de succès ou d'erreur */}
