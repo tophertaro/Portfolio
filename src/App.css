@@ -251,7 +251,7 @@ p {
   padding: 30px;
   width: 100%;
   max-width: 600px;
-  margin: 10rem auto ;
+  margin: 5rem auto ;
   text-align: center;
 }
 
@@ -279,6 +279,8 @@ p {
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
+  box-sizing: border-box; /* Prend en compte le padding et la bordure dans la largeur totale */
+  margin: 0; /* Supprime les marges qui pourraient créer un débordement */
 }
 
 .contact-form input::placeholder,
