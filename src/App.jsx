@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import projectsData from './datas/projects.json'
+
 import Header from './components/Header'
 import AboutMe from './components/Aboutme'
 import SocialNetwork from './components/SocialNetwork'
@@ -25,8 +27,8 @@ function App() {
      <SocialNetwork/>
      <Skills />
      <Tools />
-     <section id='projects'>
-      <Projects />
+     <section id='projects' >
+      <Projects projects={projectsData}/>
      </section>
      
      <section id='contact'>
