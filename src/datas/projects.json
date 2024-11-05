@@ -1,22 +1,15 @@
 [
   {
     "id": 1,
-    "title": "Architect Portfolio",
-    "description": "Added JavaScript features to an architect portfolio site, enabling login, and project addition and deletion.",
-    "imageUrl": "../src/assets/sophie-bluel.png",
-    "link": "https://projet-3-oc.vercel.app/"
-  },
-  {
-    "id": 2,
     "title": "Real Estate Rental Site KASA",
-    "description": "Created a real estate rental website using React.",
+    "description": "This project involved creating a real estate rental website using React. We developed various components and set up routes to enable smooth navigation between different pages, enhancing the overall user experience.    ",
     "imageUrl": "../src/assets/site-kasa.png",
     "link": "https://projet-5-oc.vercel.app/"
   }, 
   {
-    "id": 3,
+    "id": 2,
     "title": "Integrating a Figma Mockup",
-    "description": "This project consists of integrating a Figma mockup using HTML and CSS.",
+    "description": "In this project, I integrated a homepage for a travel agency using HTML and CSS. I also implemented responsive design techniques to ensure the website functions seamlessly across various devices and screen sizes.",
     "imageUrl": "../src/assets/booki.png",
     "link": "https://tophertaro.github.io/projet-2-oc-/"
   }
