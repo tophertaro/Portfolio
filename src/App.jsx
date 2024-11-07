@@ -11,7 +11,6 @@ import Projects from './components/Projects'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 
-import profileImg from './assets/profile-picture.jpeg'
 import './App.css'
 import './App-mobile.css'
 
@@ -23,7 +22,7 @@ function App() {
   return (
     <>
      <Header />
-     <AboutMe profileImg={profileImg}/>
+     <AboutMe profileImg={'assets/profile-picture.jpeg'}/>
      <SocialNetwork/>
      <Skills />
      <Tools />

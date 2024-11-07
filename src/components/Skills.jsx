@@ -1,15 +1,11 @@
-import jsLogo from '../assets/js-logo.svg'
-import reactLogo from '../assets/react-logo.svg'
-import nodeJsLogo from '../assets/nodejs-logo.svg'
-import tailwindLogo from '../assets/tailwind-logo.svg'
 
 function Skills() {
 
   const skills = [
-    {name: 'Javascript', logo: jsLogo},
-    {name: 'React', logo: reactLogo},
-    {name: 'Node JS', logo: nodeJsLogo},
-    {name: 'Tailwind', logo: tailwindLogo}
+    {name: 'Javascript', logo: '/assets/js-logo.svg'},
+    {name: 'React', logo: '/assets/react-logo.svg'},
+    {name: 'Node JS', logo: '/assets/nodejs-logo.svg'},
+    {name: 'Tailwind', logo: '/assets/tailwind-logo.svg'}
   ]
 
   return(

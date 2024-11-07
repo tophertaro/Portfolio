@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Real Estate Rental Site KASA",
     "description": "This project involved creating a real estate rental website using React. We developed various components and set up routes to enable smooth navigation between different pages, enhancing the overall user experience.    ",
-    "imageUrl": "../src/assets/site-kasa.png",
+    "imageUrl": "/assets/site-kasa.png",
     "link": "https://projet-5-oc.vercel.app/"
   }, 
   {
     "id": 2,
     "title": "Integrating a Figma Mockup",
     "description": "In this project, I integrated a homepage for a travel agency using HTML and CSS. I also implemented responsive design techniques to ensure the website functions seamlessly across various devices and screen sizes.",
-    "imageUrl": "../src/assets/booki.png",
+    "imageUrl": "/assets/booki.png",
     "link": "https://tophertaro.github.io/projet-2-oc-/"
   }
 ]

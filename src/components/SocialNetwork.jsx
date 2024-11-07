@@ -1,16 +1,13 @@
-import linkedinLogo from '../assets/linkedin-logo.jpg'
-import githubLogo from '../assets/github-logo.jpg'
-
 
 function SocialNetwork() {
 
   const socialNetworks = [
     {name:'Linkedin',
-    logo: linkedinLogo,
+    logo: '/assets/linkedin-logo.jpg',
     link: 'https://www.linkedin.com/in/christopher-phorimavong-677137188/',
     },
     {name:'Github',
-    logo: githubLogo,
+    logo: '/assets/github-logo.jpg',
     link: 'https://github.com/tophertaro',
     }
   ]

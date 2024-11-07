@@ -1,11 +1,9 @@
-import gitLogo from '../assets/git-logo.svg'
-import vsCodeLogo from '../assets/vscode-logo.png'
 
 function Tools() {
 
   const tools = [
-    {name: 'Git', logo: gitLogo},
-    {name: 'Vs Code', logo: vsCodeLogo},
+    {name: 'Git', logo: '/assets/git-logo.svg'},
+    {name: 'Vs Code', logo: '/assets/vscode-logo.png'},
   ]
 
   return(
