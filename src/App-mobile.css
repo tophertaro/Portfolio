@@ -49,10 +49,13 @@
   .projects-grid {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
     padding-top: 30px;
-    justify-items: center;
+  }
+
+  .project-card {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .contact-form-container {
